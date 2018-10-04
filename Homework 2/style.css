@@ -1,0 +1,19 @@
+h1 {
+  Font size: 64px; Color: Red; text-decoration: underline; text-transform: uppercase;
+}
+
+#imagewidth {
+  max-width: 600px; height: auto;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+.page2images {
+  max-width: 200px; height: auto;
+}
+
+td:hover {
+  background-color: #e6e6e6;
+}
