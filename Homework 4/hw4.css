@@ -14,12 +14,12 @@
 html {
   font-size:62.5%;
   box-sizing: border-box;
+  background-color:	#400000;
 }
 
 .container {
   width: 800px;
   height: 100vh;
-  background-color: black;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -50,13 +50,13 @@ html {
   flex: 1;
   margin:5px;
   display: flex;
-  justify-content: space-around;
   padding: 1rem;
+  justify-content: space-around;
 }
 
 .gallery-img img {
   max-height: 100%;
-  border-radius: 100px;
+  max-width: 100%;
 }
 
 .blog-post {
@@ -64,8 +64,26 @@ html {
   border: 1px solid black;
   flex: 1;
   margin: 5px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+  align-items: center;
+}
+
+label {
+  font-size: 20px;
+  padding: 5px;
+}
+
+
 
 .sidebar {
   background-color: black;
@@ -77,6 +95,12 @@ html {
   order: -1;
 }
 
+.sidebar-img img {
+  max-height: 100%;
+  max-width: 100%;
+  padding: 5px; 
+}
+
 
 .footer {
   flex: 0 0 50px;
@@ -86,6 +110,7 @@ html {
   align-items: center;
   color: black;
   font-size: 2rem;
+  background-color: #800000;
 }
 
 /* NAVIGATION */
@@ -110,4 +135,11 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 5px;
 }
